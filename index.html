@@ -3,82 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/com/all.win.css/all.win.css">
-    <link rel="stylesheet" href="https://cdn.jsdnlivr.net/nom/swiper@18/swtper-bundle.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/swiper/11.0.5/swiper-bundle.min.js"></script>"
-    <script defer src="main.js"></script>
-    <title>Document</title>
+    <title>POPEX JAY- Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-
-    <main>
-        <aside>
-            <ul class="Links">
-                <li onclick="Navigate(0)" class="activelink"><i class="fa-solid fa-house"></i>
-                    <p>Home</p>
-                </li>
-                <li onclick="Navigate(1)"><i class="fa-solid fa-user"></i>
-                    <p>About Me</p>
-                </li>
-                <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
-                    <p>Services</p>
-                </li>
-                <li onclick="Navigate(3)"><i class="fa-solid fa-images"></i>
-                    <p>Gallery</p>
-                </li>
-                <li onclick="Navigate(4)"><i class="fa-solid fa-comments"></i>
-                    <p>Contact Me</p>
-                </li>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">
+                <a href="#" class="logo">
+                    <img src="images/tenjiku.png" alt="Dragon Logo" class="nav-logo"></a>                
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </aside>
-        <div class="swiper mySwiper">
-            <div class="SlideContainer swiper-wrapper">
-                <div class="swiper-slide home-slide">
-                    <div class="HomeContent">
-                        <h1>Hi! I'm <span class="stylized-name">Ezra</span>,</h1>
-                        <h2>A <span class="proffesions">Web Developer</span></h2>
-                        <p class="heroline">Student at University of Science and Technology of Southern Philippines.</p>
-                        <div class="buttonGroup"><button>Hire Me</button><button>Contact Me</button></div>
-                    </div>
-                    <div class="SideImg">
-                        <div class="top-right-corner">
-                            <hr class="hr1">
-                            <hr class="hr2">
-                        </div>
-                        <img src="images/popex.jpg" alt=""> 
-                        <div class="bottom-left-corner">
-                            <hr class="hr1">
-                            <hr class="hr2">
-                        </div>
-                    </div>
-                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i></p>
-                </div>
-                <div class="swiper-slide">
-                    <div class="about-us">
-                        <h1 class="heading">About Me</h1>
-                        <h3 class="sub-heading">I'm Ezra, <span class="proffesions">A Web Developer</span></h3>
-                        <p class="aboutme-details">
-                            Hey, this is my homepage, so I have to say something about myself. Sometimes it is hard to introduce yourself because you know yourself so well that you do not know where to start with. Let me give a try to see what kind of image you have about me through my self-description. I hope that my impression about myself and your impression about me are not so different. Here it goes.
-                        </p>
-                        <div class="about-me-division">
-                            <div class="about-me-table">
-                                <li><span>Experience:</span>1 year</li>
-                                <li><span>Country:</span>Philippines</li>
-                                <li><span>Availability:</span>24/7</li>
-                                <li><span>Satisfied Clients:</span>100+</li>
-                                <li><span>Age:</span>20</li>
-                                <li><span>Phone:</span>0906164053</li>
-                                <li><span>Degree:</span>BSIT-CITC</li>
-                                <li><span>Language Used:</span>HTML, CSS, JAVASCRIPT</li>
-                                <div class="buttonGroup"><button>Hire Me</button><button>Contact Me</button></div>
-                            </div>
+        </div>
+    </nav>
 
-                            
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Ezra Jay Palarca</h1>
+            <img src="images/popex.jpg" alt="John Doe" class="hero-image">
+            <p class="subtitle">STUDENT/DESIGNER</p>
+            <p class="description">I design exceptional digital experiences that are visually stunning and user-friendly.</p>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://facebook.com/ez.ra.3597" class="social-link"><i class="fab fa-facebook"></i></a>
+                <a href="mailto:hello@example.com" class="social-link"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>ABOUT ME</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/hhaha.jpg" alt="Profile">
+                </div>
+                <div class="about-text">
+                    <p>I'm a dedicated and curious student passionate about web development. I enjoy learning new technologies like Git, HTML, and CSS, and I strive to create websites that are both visually appealing and user-friendly. My goal is to keep improving my skills and build innovative digital experiences.</p>
+                    <div class="skills">
+                        <div class="skill-category">
+                            <h3>Education</h3>
+                            <ul>
+                                <li>BS in Information Technology</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Skills</h3>
+                            <ul>
+                                <li>HTML/CSS</li>
+                                <li>FIGMA</li>
+                                <li>FRONTEND DEVELOPMENT</li>
+                                <li>UI/UX Design</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>PROJECT GALLERY</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/hehe.jpg" alt="Project 1">
+                    <div class="gallery-overlay">
+                        <h3>Social Media Template</h3>
+                        <p>Web Design</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/qqqq.jpg" alt="Project 2">
+                    <div class="gallery-overlay">
+                        <h3>Craigslist Website</h3>
+                        <p>Website Design/Development</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/dddd.jpg" alt="Project 3">
+                    <div class="gallery-overlay">
+                        <h3>Portfolio Website</h3>
+                        <p>Web Development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>CONTACT ME</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>ezrapalarca9@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Phone</h3>
+                        <p>09061649053</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Location</h3>
+                        <p>Zone 4, Pasil, Kauswagan, Cagayan de Oro City, Misamis Oriental, Philippines, 9000</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Working Hours</h3>
+                        <p>Monday - Friday<br>9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 POPEX JAY. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/ejpalarca" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://facebook.com/ez.ra.3597" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="mailto:ezrapalarca9@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
+</html>
